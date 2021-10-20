@@ -1,0 +1,24 @@
+<Configuration>
+
+  <!-- Configuration reference at
+         https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/windows-sandbox-configure-using-wsb-file
+  -->
+
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\Sandbox\Scripts</HostFolder>
+      <SandboxFolder>C:\Sandbox\Scripts</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+
+  <LogonCommand>
+    <Command>C:\Sandbox\Scripts\zoominstall.cmd</Command>
+  </LogonCommand>
+
+  <ProtectedClient>Enable</ProtectedClient>
+  <VideoInput>Enable</VideoInput>
+  <!-- default for audioinput is Enable but just in case -->
+  <AudioInput>Enable</AudioInput>
+
+</Configuration>
