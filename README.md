@@ -39,6 +39,10 @@ double-click it.
 
 Available choices are listed below.
 
+### sandbox/config/firefox.wsb
+
+Downloads the latest Firefox installer and installs it within the Sandbox, with video and audio input disabled from the host.
+
 ### sandbox/config/zoom.wsb
 
 Downloads the Zoom installer and runs it within the Sandbox, with video
